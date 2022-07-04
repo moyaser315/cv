@@ -1,10 +1,10 @@
 @keyframes img {
   0%   {visibility: hidden;left:0px; top:0px;}
-  100%  {visibility: visible; left:280px; top:0px;}
+  100%  {visibility: visible; left:left:38%; top:0px;}
 }
 @keyframes boot {
   0%   {visibility: hidden;left:0px; top:0px;}
-  100%  {visibility: visible; left:340px; top:0px;}
+  100%  {visibility: visible; left:45%; top:0px;}
 }
 
 @keyframes mount {
@@ -17,7 +17,8 @@
   background-color: #66BFBF;
   color: white ;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 5%;
+  padding-bottom: 5%;
 
 }
 span{
@@ -44,8 +45,8 @@ span{
 .left
 {
   position: absolute;
-  left:400px;
-  top:250px;
+  left:25%;
+  top:35%;
   animation-name: mount;
   animation-duration: 4s;
 
@@ -53,7 +54,7 @@ span{
 .right
 {
   position: absolute;
-  right:300px;
+  right:17%;
   animation-name: mount;
   animation-duration: 4s;
 
@@ -68,7 +69,7 @@ body
 .middle-container
 {
   position: relative;
-  top:200px;
+  top:10%;
   align-items: flex-start;
 }
 .profile
@@ -80,8 +81,8 @@ body
 #me {
   grid-column: 1;
   position: relative;
-  left:190px;
-  top:80px;
+  left:20%;
+  top:120%;
 
   height:300px;
   width:auto;
@@ -124,7 +125,7 @@ body
 {
   position: relative;
   text-align: center;
-  left:280px;
+  left:38%;
   grid-column: 1;
   height: 70px;
   animation-name: img;
@@ -134,7 +135,7 @@ body
 {
   position: relative;
   text-align: center;
-  left:340px;
+  left:45%;
   grid-column: 2;
   height: 70px;
   animation-name: boot;
@@ -163,7 +164,6 @@ h2
 .contact-me h2
 {
   position: relative;
-  top:150px;
   grid-row: 1;
   font-size: 45px;
 }
@@ -171,18 +171,19 @@ h2
 {
   grid-row: 2;
   position: relative;
-  top:50px;
+  /*top:50px;*/
 }
 .contact-me p
 {
   grid-row: 3;
   position: relative;
+  bottom: 25%;
 
 }
 .bottom-container
 {
   position: relative;
-  top:50px;
+  top:10%;
   text-align: center;
   display: grid;
   grid-template-rows: 1fr 1fr ;
@@ -227,5 +228,12 @@ hr{
   border-style: dotted;
   border-color: #FF0063;
   width: 50%;
+  border-bottom:  none;
+}
+.lastone
+{
+  border-style: dotted;
+  border-color: white;
+  width: 99%;
   border-bottom:  none;
 }
